@@ -7,11 +7,11 @@ import (
 	"log/slog"
 	"net/url"
 
-	"github.com/sater151/url_shortener/internal/config"
-	"github.com/sater151/url_shortener/internal/pkg/errorspkg"
-	"github.com/sater151/url_shortener/internal/pkg/generator"
-	"github.com/sater151/url_shortener/internal/pkg/logger"
-	"github.com/sater151/url_shortener/internal/pkg/validate"
+	"github.com/SaTeR151/url_shortener/internal/config"
+	"github.com/SaTeR151/url_shortener/internal/pkg/errorspkg"
+	"github.com/SaTeR151/url_shortener/internal/pkg/generator"
+	"github.com/SaTeR151/url_shortener/internal/pkg/logger"
+	"github.com/SaTeR151/url_shortener/internal/pkg/validate"
 )
 
 type (

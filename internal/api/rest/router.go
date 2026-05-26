@@ -3,8 +3,8 @@ package rest
 import (
 	"net/http"
 
-	"github.com/sater151/url_shortener/internal/pkg/errorspkg"
-	"github.com/sater151/url_shortener/internal/pkg/validate"
+	"github.com/SaTeR151/url_shortener/internal/pkg/errorspkg"
+	"github.com/SaTeR151/url_shortener/internal/pkg/validate"
 )
 
 type (

@@ -1,10 +1,10 @@
 package app
 
 import (
-	"github.com/sater151/url_shortener/internal/config"
-	"github.com/sater151/url_shortener/internal/pkg/errorspkg"
-	"github.com/sater151/url_shortener/internal/pkg/validate"
-	"github.com/sater151/url_shortener/internal/usecases/shortener"
+	"github.com/SaTeR151/url_shortener/internal/config"
+	"github.com/SaTeR151/url_shortener/internal/pkg/errorspkg"
+	"github.com/SaTeR151/url_shortener/internal/pkg/validate"
+	"github.com/SaTeR151/url_shortener/internal/usecases/shortener"
 )
 
 type (

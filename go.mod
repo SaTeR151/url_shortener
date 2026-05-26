@@ -1,4 +1,4 @@
-module github.com/sater151/url_shortener
+module github.com/SaTeR151/url_shortener
 
 go 1.26.2
 

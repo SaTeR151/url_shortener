@@ -1,9 +1,9 @@
 package app
 
 import (
-	"github.com/sater151/url_shortener/internal/pkg/errorspkg"
-	"github.com/sater151/url_shortener/internal/pkg/validate"
-	inmemory "github.com/sater151/url_shortener/internal/repo/inMemory"
+	"github.com/SaTeR151/url_shortener/internal/pkg/errorspkg"
+	"github.com/SaTeR151/url_shortener/internal/pkg/validate"
+	inmemory "github.com/SaTeR151/url_shortener/internal/repo/inMemory"
 )
 
 type (
