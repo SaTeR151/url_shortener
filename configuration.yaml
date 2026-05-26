@@ -1,0 +1,17 @@
+# [LevelDebug = -4 LevelInfo = 0 LevelWarn = 4 LevelError = 8]
+Logger:
+  Level: -4
+
+HttpServer:
+  Port: 8080
+  ReadTimeout: 10s
+  ReadHeaderTimeout: 500ms
+  WriteTimeout: 10s
+  IdleTimeout: 1s
+  MaxHeaderBytes: 500
+
+Shortener:
+  Host: "localhost:8080"
+  CountOfSymbolsInURL: 10
+  CountOfRetriesCreatingLink: 10
+  Secure: false # if true, then https://
