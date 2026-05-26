@@ -19,6 +19,5 @@ func get() *validator.Validate {
 	initOnce.Do(func() {
 		validationErrors = validator.New()
 	})
-
 	return validationErrors
 }
